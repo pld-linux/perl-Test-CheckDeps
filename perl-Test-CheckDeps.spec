@@ -7,18 +7,18 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Test::CheckDeps - Check for presence of dependencies
 Name:		perl-Test-CheckDeps
-Version:	0.004
+Version:	0.010
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bc18052363141e62a3b062a4479e8ece
+# Source0-md5:	c1893b187e9b2efee7d40b1799218576
 URL:		http://search.cpan.org/dist/Test-CheckDeps/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-CPAN-Meta-Check
+BuildRequires:	perl-CPAN-Meta-Check >= 0.007
 BuildConflicts:	perl-Version-Requirements
 %endif
 BuildArch:	noarch
