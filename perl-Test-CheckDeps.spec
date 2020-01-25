@@ -4,7 +4,6 @@
 #
 %define		pdir	Test
 %define		pnam	CheckDeps
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::CheckDeps - Check for presence of dependencies
 Summary(pl.UTF-8):	Test::CheckDeps - sprawdzanie obecności zależności
 Name:		perl-Test-CheckDeps
